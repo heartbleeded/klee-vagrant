@@ -13,6 +13,8 @@ install 'deps listed on blog post' python-minimal git bison flex bc libcap-dev b
 
 install 'llvm runtime' llvm-runtime clang
 
+cd
+
 wget -qnc http://llvm.org/releases/2.9/llvm-gcc4.2-2.9-x86_64-linux.tar.bz2
 tar -jxvf llvm-gcc4.2-2.9-x86_64-linux.tar.bz2
 
