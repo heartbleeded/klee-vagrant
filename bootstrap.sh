@@ -67,6 +67,7 @@ cd $HOME
 
 git clone https://github.com/klee/klee.git
 cd klee
+git checkout ad4f23ac1b1fa
 ./configure --enable-posix-runtime --with-stp=$HOME/stp-r940/install --with-llvm=$HOME/llvm-2.9/ --with-uclibc=$HOME/klee-uclibc/
 
 make ENABLE_OPTIMIZED=1
